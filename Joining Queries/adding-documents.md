@@ -1,3 +1,18 @@
+PUT /test_department
+{
+  "mappings": {
+    "properties": {
+      "join_field": { 
+        "type": "join",
+        "relations": {
+          "test_department": "test_employee"
+        }
+      }
+    }
+  }
+}
+
+
 # Adding documents
 
 ## Adding departments
