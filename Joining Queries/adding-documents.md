@@ -1,3 +1,4 @@
+```
 PUT /test_department
 {
   "mappings": {
@@ -11,6 +12,7 @@ PUT /test_department
     }
   }
 }
+```
 
 
 # Adding documents
